@@ -1,1 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
 @import "reset.css";
+@import "status-bar.css";
+@import "header.css";
+@import "nav-bar.css";
+@import "friend.css";
+
+* {
+  box-sizing: border-box;
+}
+/*box-sizing: border-box는 원래정해진 box공간에 width나 height가
+있는데 거기다가 padding를 추가시켜 padding가 원래정해진 사이즈에 맞추려고 하면
+content가 옆으로나 위로 사라질 수 있는데 그것을 막아서 content부분이
+사라지지 않고 보이게해주는거임 (아마?) , (이해다시하려면 kakao-clone #2.4인강보기)*/
+
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+a {
+  color: inherit;
+  /*이 말의 뜻은 부모 요소로부터 색깔을 받아온다는 뜻. 링크라서 보라색일텐데
+  이걸쓰면 그 위의 부모요소들이 검정색이므로 링크여도 검정색으로 나옴*/
+}

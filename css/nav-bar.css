@@ -1,0 +1,41 @@
+.nav {
+  position: fixed;
+  /*position: fixed는 움직이든 말든 그 자리에 고정시켜준다 하지만,
+  width가 없으면 사라짐. 그러므로 둘다 설정해주자.*/
+  width: 100%;
+  background-color: #fcfcfc;
+  padding: 20px 50px;
+  left: 0px;
+  bottom: 0px;
+  border-top: 1px solid #f7f7f7;
+}
+
+.nav .nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav i {
+  font-size: 20px;
+}
+
+.nav .nav__list-link {
+  position: relative;
+}
+
+.nav .nav__badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+
+  font-size: 13px;
+  color: white;
+  background-color: #dc5d46;
+  width: 19px;
+  height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 9.5px; /*height,width의 19px의 절반인 10px을 주면 동그라미가 된다.
+  그리고 9.5px이 아니라 절반이니까 50%로 줘도 괜춘.*/
+}
