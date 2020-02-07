@@ -20,10 +20,8 @@
             <span class="status-bar__clock">13:54</span>
         </di v>
         <div class="status-bar__column">
-            <i class="far fa-clock"></i>
-            <i class="fas fa-volume-up"></i>
+            <i class="fas fa-signal"></i>
             <i class="fas fa-wifi"></i>
-            <span class="status-bar__battery-level">85%</span>
             <i class="fas fa-battery-three-quarters"></i>
 
         </div>
@@ -53,17 +51,19 @@
     </header>
     <main class="friends">
         <!--내 프로필칸-->
-        <header class="friends__header">
-            <div class="friends__friend friend friend__lg">
-                <div class="friends__column">
+        <header class="friend__header">
+            <div class="friend__friend friend friend__lg">
+                <div class="friend__column">
 
                     <img src="images/avatar.jpg" class="g-avatar friend__avatar">
+                    <div class="friend__content">
                     <span class="friend__name">
                         서광용
                     </span>
                     <span class="friend__status">
                         카카오 클론 만드는중.
                     </span>
+                </div>
                 </div>
             </div>
             <!--parent__child 는 __앞에있는건 부모고 __뒤에있는건 자식이다.-->
@@ -75,9 +75,9 @@
             <h5 class="frineds__title">생일인 친구</h5>
             <div class="friends__friend friend">
                 <div class="friend__column">
-                    <img src="images/avatar.jpg" class="g-avatar friend__avatar">
+                    <img src="images/avatar.jpg" class="friend__avatar">
                     <div class="friend__content">
-                        <span class="friend__name">
+                        <span class="friend__status">
                             친구의 생일을 확인해보세요!
                         </span>
                     </div>
@@ -91,7 +91,7 @@
             <li class="friends__friend friend friend__lg">
                 <div class="friend__column">
                     <!--parent__child 는 __앞에있는건 부모고 __뒤에있는건 자식이다.-->
-                    <img src="images/avatar.jpg" class="g-avatar friend__avatar">
+                    <img src="images/avatar.jpg" class="friend__avatar">
                     <div class="friend__content">
                         <span class="friend__name">
                             서광용

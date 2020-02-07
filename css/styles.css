@@ -16,7 +16,7 @@ content가 옆으로나 위로 사라질 수 있는데 그것을 막아서 conte
 body {
   background-color: white;
   padding: 10px 20px;
-  color: #020202;
+  color: #403631;
   font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
     Roboto, Oxygen, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
@@ -25,4 +25,6 @@ a {
   color: inherit;
   /*이 말의 뜻은 부모 요소로부터 색깔을 받아온다는 뜻. 링크라서 보라색일텐데
   이걸쓰면 그 위의 부모요소들이 검정색이므로 링크여도 검정색으로 나옴*/
+  text-decoration: none;
+  /*텍스트 밑에 주소가있으면 밑줄이그어지는데 그것을 지우는용도*/
 }

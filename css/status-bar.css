@@ -1,15 +1,11 @@
 .status-bar {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 30px;
-  color: #656565;
+  margin-bottom: 3px;
+  color: #403631;
   /*opacity:0.7을 사용할수도있음 color대신에, 이거는 색의 70%만 보여준다는 뜻*/
 }
 
 .status-bar i {
   font-size: 14px;
-}
-
-.status-bar .status-bar__battery-level {
-  margin-left: 5px;
 }

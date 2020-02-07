@@ -5,8 +5,8 @@
 }
 
 .friend .friend__avatar {
-  width: 55px;
-  height: 55px;
+  width: 50px;
+  height: 50px;
   border-radius: 40%;
 }
 
@@ -15,5 +15,40 @@
     적용된다는 의미임. 여기서 띄어쓰기를 하면 friend__avatar안에 있는 g-avatar을 의미해버리므로
     띄어쓰기를 하면 안됨.*/
 
-  /* width: 70px; */
+  width: 70px;
+  height: 70px;
+}
+
+.friend__avatar.m-avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.friend .friend__column {
+  display: flex;
+  align-items: center;
+}
+
+.friend .friend__avatar {
+  margin-right: 15px;
+}
+
+.friend__content .friend__name {
+  display: block;
+  margin-bottom: 4px;
+}
+
+.friend__content .friend__status,
+.friend__content .friend__bottom-text,
+.friend .chat__timestamp {
+  opacity: 0.6;
+}
+
+.friend__content .friend__bottom-text {
+  font-size: 14px;
+}
+
+.friend__content .friend__status,
+.friend .chat__timestamp {
+  font-size: 12px;
 }
