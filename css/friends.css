@@ -12,4 +12,15 @@
   margin-bottom: 12px;
 }
 
-/* #2.8 Friends Screen 4분 50초부터 듣자.*/
+.friends .friends__birthday {
+  margin-top: 20px;
+  padding: 20px 0px;
+  border-top: 1px solid #f7f7f7;
+  border-bottom: 1px solid #f7f7f7;
+  margin: 20px 0px;
+}
+
+.friends .friends_title {
+  font-size: 14px;
+  opacity: 0.6;
+}
