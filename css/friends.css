@@ -8,7 +8,7 @@
 
 .friends .friends__title {
   font-size: 14px;
-  opacity: 0.6;
+  opacity: 0.8;
   margin-bottom: 12px;
 }
 
@@ -18,9 +18,4 @@
   border-top: 1px solid #f7f7f7;
   border-bottom: 1px solid #f7f7f7;
   margin: 20px 0px;
-}
-
-.friends .friends_title {
-  font-size: 14px;
-  opacity: 0.6;
 }

@@ -40,8 +40,7 @@
 }
 
 .friend__content .friend__status,
-.friend__content .friend__bottom-text,
-.friend .chat__timestamp {
+.friend__content .friend__bottom-text {
   opacity: 0.6;
 }
 
@@ -49,8 +48,7 @@
   font-size: 14px;
 }
 
-.friend__content .friend__status,
-.friend .chat__timestamp {
+.friend__content .friend__status {
   font-size: 12px;
 }
 
@@ -61,7 +59,8 @@
   font-size: 14px;
 }
 
-.friend .friend__now-listening i {
+.friend .friend__now-listening,
+.friend .chat__timestamp i {
   font-size: 12px;
 }
 
