@@ -1,102 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
-        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/styles.css" />
     <!--Font Awesome사이트에서 폰트 스타일을 import해주는 명령어-->
     <title>채팅 | Kakao Clone</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="status-bar">
-        <div class="status-bar__column">
-            <span class="status-bar__clock">13:54</span>
-        </div>
-        <div class="status-bar__column">
-            <i class="fas fa-signal"></i>
-            <i class="fas fa-wifi"></i>
-            <i class="fas fa-battery-three-quarters"></i>
-        </div>
+      <div class="status-bar__column">
+        <span class="status-bar__clock">13:54</span>
+      </div>
+      <div class="status-bar__column">
+        <i class="fas fa-signal"></i>
+        <i class="fas fa-wifi"></i>
+        <i class="fas fa-battery-three-quarters"></i>
+      </div>
     </div>
     <header class="header">
-        <div class="header__header-column">
-            <a href="2.index.html" class="header__back-btn">
-                <i class="fas fa-chevron-left fa-2x"></i>
-            </a>
-        </div>
-        <h1 class="header__title">친한친구</h1>
-        </div>
-        <div class="header__header-column">
-            <span class="header__icon">
-                <i class="fas fa-search"></i>
-            </span>
+      <div class="header__header-column">
+        <a href="2.index.html" class="header__back-btn">
+          <i class="fas fa-chevron-left fa-2x"></i>
+        </a>
+        <h1>친한친구</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
 
-            <span class="header__icon">
-                <i class="fas fa-bars"></i>
-            </span>
-        </div>
-
+        <span class="header__icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </div>
     </header>
 
     <main class="chat">
-        <ul class="chat__messages">
-            <span class="chat__timestamp">2020년 2월 2일 일요일</span>
-            <li class="incoming-message message">
-                <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
-                <div class="message__content">
-                    <span class="message__author">Best Friend</span>
-                    <div class="message__bubble">
-                        Congrats I love you!
-                    </div>
-                </div>
-                <span class="message__timestamp"></span>
-            </li>
+      <ul class="chat__messages">
+        <span class="chat__timestamp">2020년 2월 2일 일요일</span>
+        <li class="incoming-message message">
+          <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+          <div class="message__content">
+            <span class="message__author">Best Friend</span>
+            <div class="message__bubble">
+              Congrats I love you!
+            </div>
+          </div>
+          <span class="message__timestamp"></span>
+        </li>
 
-            <li class="incoming-message message">
-                <span class="message__timestamp"></span>
-                <div class="message__content">
-                    <div class="message__bubble">
-                        Thank you see you soon!
-                    </div>
-                </div>
+        <li class="incoming-message message">
+          <span class="message__timestamp"></span>
+          <div class="message__content">
+            <div class="message__bubble">
+              Thank you see you soon!
+            </div>
+          </div>
+        </li>
 
-            </li>
-
-            <li class="incoming-message message">
-                <img src="images/avatar.jpg" class="g-avatar friend__avatar"/>
-                <div class="message__content">
-                    <span class="message__author">Best Friend</span>
-                    <div class="message__bubble">
-                        haha ok good night~~
-                    </div>
-                </div>
-                <span class="message__timestamp"></span>
-            </li>
-
-        </ul>
+        <li class="incoming-message message">
+          <img src="images/avatar.jpg" class="g-avatar friend__avatar" />
+          <div class="message__content">
+            <span class="message__author">Best Friend</span>
+            <div class="message__bubble">
+              haha ok good night~~
+            </div>
+          </div>
+          <span class="message__timestamp"></span>
+        </li>
+      </ul>
     </main>
 
     <div class="chat__write">
-        <div class="chat__write-colum">
-            <i class="far fa-plus-square"></i>
-        </div>
-        <div class="chat__write-colum">
-            <input type="text" placeholder="Send message" class="chat__write-input">
-        </div>
-        <div class="chat__write-colum">
-            <span class="chat__write-icon">
-                <i class="far fa-smile-wink"></i>
-            </span>
-            <span class="chat__write-icon">
-                <i class="fas fa-microphone-alt"></i>
-            </span>
-        </div>
+      <div class="chat__write-colum">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat__write-colum">
+        <input
+          type="text"
+          placeholder="Send message"
+          class="chat__write-input"
+        />
+      </div>
+      <div class="chat__write-colum">
+        <span class="chat__write-icon">
+          <i class="far fa-smile-wink"></i>
+        </span>
+        <span class="chat__write-icon">
+          <i class="fas fa-microphone-alt"></i>
+        </span>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>

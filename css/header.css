@@ -5,6 +5,11 @@
   margin-bottom: 30px;
 }
 
+.header__header-column {
+  display: flex;
+  align-items: center;
+}
+
 .header .header__title {
   font-size: 24px;
   font-weight: 600;
