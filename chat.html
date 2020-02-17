@@ -16,41 +16,43 @@
   </head>
 
   <body class="chats-body">
-    <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">13:54</span>
+    <div class="header-wrapper">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">13:54</span>
+        </div>
+
+        <div class="status-bar__infos">
+          <span class="status-bar__infor--signal">
+            <i class="fas fa-signal"></i>
+          </span>
+          <span class="status-bar__infor--wifi">
+            <i class="fas fa-wifi"></i>
+          </span>
+          <span class="status-bar__infor--battery">
+            <i class="fas fa-battery-three-quarters"></i>
+          </span>
+        </div>
       </div>
 
-      <div class="status-bar__infos">
-        <span class="status-bar__infor--signal">
-          <i class="fas fa-signal"></i>
-        </span>
-        <span class="status-bar__infor--wifi">
-          <i class="fas fa-wifi"></i>
-        </span>
-        <span class="status-bar__infor--battery">
-          <i class="fas fa-battery-three-quarters"></i>
-        </span>
-      </div>
+      <header class="header">
+        <div class="header__header-column">
+          <a href="2.index.html" class="header__back-btn">
+            <i class="fas fa-chevron-left fa-2x"></i>
+          </a>
+          <h1>친한친구</h1>
+        </div>
+        <div class="header__header-column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+
+          <span class="header__icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </div>
+      </header>
     </div>
-
-    <header class="header">
-      <div class="header__header-column">
-        <a href="2.index.html" class="header__back-btn">
-          <i class="fas fa-chevron-left fa-2x"></i>
-        </a>
-        <h1>친한친구</h1>
-      </div>
-      <div class="header__header-column">
-        <span class="header__icon">
-          <i class="fas fa-search"></i>
-        </span>
-
-        <span class="header__icon">
-          <i class="fas fa-bars"></i>
-        </span>
-      </div>
-    </header>
 
     <main class="chat-screen">
       <ul class="chat__messages">
