@@ -4,8 +4,6 @@
   width: 100%;
   padding: 10px 0px;
   background-color: white;
-  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 16px -8px,
-    rgba(0, 0, 0, 0.024) 0px -6px 16px -6px;
 }
 
 .chat__messages {
@@ -27,10 +25,9 @@
   /*위에 .chat가 있으니 chat class가 적용된 div에 viewport의 100% 높이를 주는것*/
 }
 
-.chat__write {
+.chat__write-container {
   position: fixed;
-  bottom: 50px;
-  width: 80%;
+  bottom: 0;
   margin: 0 auto;
   right: 0;
   left: 0;
@@ -42,9 +39,36 @@
   align-items: center;
   background-color: #fcfcfc;
   padding: 0 20px;
-  border-radius: 40px;
-  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
-  /*rgba의 마지막값은 opacity값*/
+  /* box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+  rgba의 마지막값은 opacity값 */
+}
+
+.chat__write {
+  bottom: 0px;
+  width: 100%;
+  border-radius: 0;
+  padding: 20px 60px;
+  width: 100%;
+  border: none; /*글쓰는곳 칸 테두리 지우는것*/
+  font-size: 14px;
+}
+
+.chat__icon-left {
+  position: absolute;
+}
+
+.chat__icon-right {
+  position: absolute;
+  right: 10px;
+}
+
+.chat__write:focus {
+  outline: none;
+  /*이거는 왜쓴거지..?*/
+}
+
+.chat__icon {
+  font-size: 18px;
 }
 
 .chat__write i {
@@ -53,18 +77,6 @@
 
 .chat__write-column:nth-child(2) {
   width: 80%;
-}
-
-.chat__write-column input {
-  padding: 15px 10px;
-  width: 100%;
-  border: none; /*글쓰는곳 칸 테두리 지우는것*/
-  font-size: 14px;
-}
-
-.chat__write-column input:focus {
-  outline: none;
-  /*이거는 왜쓴거지..?*/
 }
 
 .chat-screen .chat__messages {
