@@ -9,6 +9,7 @@
 @import "more.css";
 @import "settings.css";
 @import "chat.css";
+@import "mobile.css";
 
 * {
   box-sizing: border-box;
@@ -16,7 +17,7 @@
 /*box-sizing: border-box는 원래정해진 box공간에 width나 height가
 있는데 거기다가 padding를 추가시켜 padding가 원래정해진 사이즈에 맞추려고 하면
 content가 옆으로나 위로 사라질 수 있는데 그것을 막아서 content부분이
-사라지지 않고 보이게해주는거임 (아마?) , (이해다시하려면 kakao-clone #2.4인강보기)*/
+사라지지 않고 보이게해주는거임 */
 
 body {
   background-color: white;

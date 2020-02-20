@@ -39,3 +39,16 @@
   border-radius: 9.5px; /*height,width의 19px의 절반인 10px을 주면 동그라미가 된다.
   그리고 9.5px이 아니라 절반이니까 50%로 줘도 괜춘.*/
 }
+
+@keyframes showNavBar {
+  from {
+    transform: translateY(80px);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.nav {
+  animation: showNavBar 0.5s ease-out;
+}
