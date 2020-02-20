@@ -33,6 +33,10 @@
   margin-right: 15px;
 }
 
+.friend.friend__avatar--fr {
+  background-color: red;
+}
+
 .friend__content .friend__name {
   display: block;
   font-weight: 600;
@@ -52,6 +56,10 @@
   font-size: 12px;
 }
 
+.friend.friend__lg {
+  margin: 15px 0px;
+}
+
 .friend .friend__now-listening {
   border: 1px solid #52e084;
   padding: 5px 10px;
@@ -62,6 +70,12 @@
 .friend .friend__now-listening,
 .friend .chat__timestamp i {
   font-size: 12px;
+}
+
+.chat__timestamp {
+  font-size: 0.8rem;
+  color: #636e72;
+  font-weight: 300;
 }
 
 .friend__add-btn {
