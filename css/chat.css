@@ -2,7 +2,7 @@
   position: fixed;
   top: 0px;
   width: 100%;
-  padding: 10px 0px;
+  padding: 0px 0px;
   background-color: white;
 }
 
@@ -16,12 +16,12 @@
 
 .chats-body .header,
 .chats-body .status-bar {
-  padding: 0px 20px;
+  padding: 10px 20px;
 }
 
 .chats-body {
-  background-image: url("../images/chatBg.png");
-  min-height: 500vh;
+  /* background-image: url("../images/chatBg.png"); */
+  min-height: 100vh;
   /*위에 .chat가 있으니 chat class가 적용된 div에 viewport의 100% 높이를 주는것*/
 }
 
